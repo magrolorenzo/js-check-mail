@@ -2,7 +2,7 @@
 // Chiedere all'utente il suo indirizzo email e verificare se è nella lista (tramite un ciclo for).
 // Comunicare quindi un messaggio appropriato (sei in lista/non sei in lista)
 
-var email = ['pippo@gmail.com', 'pluto@gmail.com', 'paperino@gmail.com'];
+var email  = ['pippo@gmail.com', 'pluto@gmail.com', 'paperino@gmail.com'];
 var controllo = 0;
 
 var user_mail = prompt('Qual è la tua mail?');
@@ -14,6 +14,7 @@ for (var i = 0; i < email.length; i++) {
         controllo = 1;
         i = email.length;
     }
+    console.log(i);
 }
 
 if ( controllo == 0){
